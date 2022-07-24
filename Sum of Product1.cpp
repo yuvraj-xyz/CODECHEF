@@ -18,11 +18,11 @@ int main()
             a.push_back(z);
         }
 
-        int ans = 0;
-        int res = 0;
+        long long ans = 0;
+        long long res = 0;
         for(int i = n - 1; i >= 0; i--) 
         {
-            int incr = a[i] * (1 + res);
+            long long incr = a[i] * (1 + res);
             ans += incr;
             res = incr;
         }
