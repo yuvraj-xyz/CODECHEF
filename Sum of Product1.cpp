@@ -26,6 +26,6 @@ int main()
             ans += incr;
             res = incr;
         }
-        cout << ans;
+        cout << ans << endl;
     }
 }
